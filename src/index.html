@@ -1,0 +1,202 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumukha Sureban</title>
+  <link rel="shortcut icon" href="./assets/favicon.png" type="image/x-icon">
+  <link href="./output.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</head>
+<body>
+    <nav class="fixed w-full z-10 p-5 bg-white shadow md:flex md:items-center md:justify-between">
+        <div class="flex justify-between items-center ">
+            <div class="flex items-center justify-start gap-4">
+                <img src="./assets/profile.png" alt="" class="w-12">
+                <h1 class="text-xl font-bold">Sumukha Sureban</h1>
+            </div>
+    
+          <span class="text-3xl cursor-pointer mx-2 md:hidden block">
+            <ion-icon name="menu" onclick="Menu(this)"></ion-icon>
+          </span>
+        </div>
+    
+        <ul class="md:flex md:items-center z-[-1] md:z-auto md:static absolute bg-white w-full left-0 md:w-auto md:py-0 py-4 md:pl-0 pl-7 md:opacity-100 opacity-0 top-[-400px] transition-all ease-in duration-500">
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="font-bold hover:text-yellow-400">Home</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="font-bold hover:text-yellow-400">About</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="font-bold hover:text-yellow-400">Projects</a>
+          </li>
+          <li class="mx-4 my-6 md:my-0">
+            <a href="#" class="font-bold hover:text-yellow-400">Contact</a>
+          </li>
+        </ul>
+      </nav>
+
+
+    <section class="relative bg-primary w-full h-screen flex justify-center">
+        <div class="flex flex-col gap-14 justify-center items-center ">
+            <h1 class="text-white text-center font-extrabold text-2xl lg:text-5xl">HEY, I'M <span>SUMUKHA</span> SUREBAN</h1>
+            <p class="text-white font-medium text-lg max-w-[800px] text-center">A Result-Oriented Web Developer building and managing Websites and Web Applications that leads to the success of the overall product.</p>
+            <button class="font-bold bg-secondary shadow-xl shado w-auto px-14 py-4 rounded hover:bg-hover">Projects</button>
+        </div>
+        <div class="bg-white fixed z-10 top-72 left-0 drop-shadow-xl w-14 h-72 border-2 invisible lg:visible">
+            <div class="flex flex-col items-center justify-start mt-10 gap-8">
+                <a href="https://www.linkedin.com/in/sumukha-sureban-94baa0204/" target="_blank">
+                    <i class="fa-brands fa-linkedin fa-2xl cursor-pointer"></i>
+                </a>
+                <a href="https://github.com/Sumukha-Nagaraj-Sureban" target="_blank">
+                    <i class="fa-brands fa-github fa-2xl cursor-pointer"></i>
+                </a>
+                <a href="https://twitter.com/SurebanSumukha" target="_blank">
+                    <i class="fa-brands fa-twitter fa-2xl cursor-pointer"></i>
+                </a>
+                <a href="#">
+                    <i class="fa-brands fa-hashnode fa-2xl"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <section class="mt-[100px]">
+        <h2 class="w-56 relative text-4xl mx-auto font-bold leading-7 tracking-wide p-2">
+            ABOUT ME
+            <span class="absolute inset-x-0 bottom-0 h-1 bg-secondary after:content-[''] after:absolute after:inset-x-0 after:h-0.5"></span>
+        </h2>
+        <p class="text-center text-gray-600 mt-10 lg:text-lg font-medium">Here you will find more information about me, what I do, and my current skills mostly in terms of programming and technology</p>
+    </section>
+
+    <main class="bg-main p-6 w-[100%]">
+        <section class="bg-main mt-24 flex flex-col justify-center items-start p-4 gap-10 m-3 lg:flex-row lg:m-24">
+            <div class="flex flex-col gap-6 justify-between items-start w-full h-auto lg:w-1/2">
+                <h2 class="text-2xl font-bold">Get to know me!</h2>
+                <p class="text-gray-600 text-base font-medium leading-7 tracking-wide" >I'm a <span class="font-bold ">Frontend Focused Web Developer</span> building and managing the Front-end of Websites and Web Applications that leads to the success of the overall product. Check out some of my work in the <span class="font-bold">Projects</span> section.</p>
+                <p class="text-gray-600 font-medium text-base leading-7 tracking-wide">I also like sharing content related to the stuff that I have learned over the years in Web Development so it can help other people of the Dev Community. Feel free to Connect or Follow me on my Linkedin and Instagram where I post useful content related to Web Development and Programming</p>
+                <p class="text-gray-600 font-medium text-base leading-7 tracking-wide">I'm open to Job opportunities where I can contribute, learn and grow. If you have a good opportunity that matches my skills and experience then don't hesitate to contact me.</p>
+                <button class="font-bold bg-secondary shadow-xl shado w-auto px-10 py-3 rounded hover:bg-hover">Projects</button>
+            </div>
+            <div class="flex flex-col justify-start items-start gap-7 w-full h-96 lg:w-1/2">
+                <h2 class="text-2xl font-bold">Skills</h2>
+                <div class="grid grid-rows-2 grid-cols-3 gap-4 lg:grid-cols-5">
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">HTML5</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">CSS3</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">JavaScript</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">Git</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">Github</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">NodeJs</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">ExpressJS</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">MONGODB</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">SQL</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">SEO</span>
+                    <span class="text-center border-2 p-2 w-auto text-gray-500 font-semibold bg-gray-200 rounded-md">Tailwind</span>
+                </div>        
+            </div>
+        </section>
+    </main>
+
+    <!-- todo, blog, quiz app, extension -->
+    <section>
+        <h2 class="w-52 relative text-4xl mx-auto font-bold p-2 mt-20">
+            PROJECTS
+            <span class="absolute inset-x-0 bottom-0 h-1 bg-secondary after:content-[''] after:absolute after:inset-x-0 after:h-0.5"></span>
+        </h2>
+
+        <div class="flex flex-col justify-center gap-10 items-center mt-14 lg:flex-row lg:justify-around lg:gap-0">
+            <div class="relative w-72 h-60 border-[1px] border-gray-300 drop-shadow-2xl">
+                <img src="https://cdn.psdrepo.com/images/2x/1784a5fb-ba35-455e-bd5b-433aa68fb206.jpg" alt="project" loading="lazy" class="w-full h-full object-cover">
+                <div class="cursor-pointer absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
+                  <p class="text-3xl font-bold">Taja Samachar</p>
+                  <p>Daily news feed web page</p>
+                </div>
+            </div>
+              
+            <div class="relative w-72 h-60 border-[1px] border-gray-300 drop-shadow-2xl">
+                <img src="https://miro.medium.com/v2/resize:fit:1400/1*_te_Zwceq02T7_XR_vgo-Q.jpeg" alt="project" loading="lazy" class="w-full h-full object-cover">
+                <div class="cursor-pointer absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
+                  <p class="text-3xl font-bold">Big Bull</p>
+                  <p class="text-lg">Realtime stock market data</p>
+                </div>
+            </div>
+
+            <div class="relative w-72 h-60 border-[1px] border-gray-300 drop-shadow-2xl">
+                <img src="https://assets.materialup.com/uploads/8bb8acb5-886a-4247-a83c-96c3b8a4e3ef/preview.jpg" alt="project" loading="lazy" class="w-full h-full object-cover">
+                <div class="cursor-pointer absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
+                  <p class="text-3xl font-bold">Namaste</p>
+                  <p>Online Chat</p>
+                </div>
+            </div>
+
+            <div class="relative w-72 h-60 border-[1px] border-gray-300 drop-shadow-2xl">
+                <img src="https://s3-alpha.figma.com/hub/file/3330529824/948b93f8-6a49-4bf1-a4c3-6f21c089642e-cover.png" alt="project" loading="eager" class="w-full h-full object-cover">
+                <div class="cursor-pointer absolute inset-0 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition duration-300 bg-black bg-opacity-50 text-white">
+                  <p class="text-3xl font-bold">Loot</p>
+                  <p>E-Commerce application</p>
+                </div>
+            </div>
+        </div>
+    </section> 
+
+    <section class="bg-main h-auto mt-32">
+        <h2 class="w-64 relative text-4xl mx-auto font-bold p-2 mt-19">
+            CONTACT ME
+            <span class="absolute inset-x-0 bottom-0 h-1 bg-secondary after:content-[''] after:absolute after:inset-x-0 after:h-0.5"></span>
+        </h2>
+
+        <div class="m-10 mx-auto w-full h-auto bg-white drop-shadow-none lg:drop-shadow-md rounded-md lg:w-3/5">
+            <form action="" method="post" class="p-4 flex flex-col gap-8 m-3">
+                <div>
+                    <label class="font-bold text-slate-600">Name</label>
+                    <br>
+                    <input type="text" class="bg-gray-100 p-4 w-full my-4 font-bold placeholder:font-bold focus:outline-none" placeholder="Enter Your Name">
+                </div>
+
+                <div>
+                    <label for="" class="font-bold text-slate-600">Email</label>
+                    <br>
+                    <input type="text" class="bg-gray-100 p-4 w-full my-4 font-bold placeholder:font-bold focus:outline-none" placeholder="Enter Your Email">
+                </div>
+
+                <div>
+                    <label for="" class="font-bold text-slate-600">Message</label>
+                    <br>
+                    <textarea name="" id="" class="p-4 bg-gray-100 resize-none w-full h-64 my-4 font-bold placeholder:font-bold focus:outline-none" placeholder="Enter Your Message"></textarea>
+                </div>
+
+                <button class="font-bold bg-secondary shadow-xl shado w-auto px-14 py-4 rounded hover:bg-hover">SUBMIT</button>
+            </form>
+        </div>
+    </section>
+
+        <footer class="p-20 bg-primary w-full h-full mt-40 flex flex-col gap-10 lg:flex-row">
+            <div class="flex flex-col gap-8">
+                <h1 class="text-white text-2xl font-bold text-left">SUMKUHA SUREBAN</h1>
+                <p class=" text-white text-x w-full leading-7 tracking-wide lg:w-2/4">A Frontend focused Web Developer building the Frontend of Websites and Web Applications that leads to the success of the overall product</p>
+            </div>
+    
+            <div class="flex flex-col">
+                <h1 class="text-white text-2xl font-bold text-center lg:text-left">SOCIAL</h1>
+                <div class="flex justify-center mt-10 gap-6">
+                    <a href="https://www.linkedin.com/in/sumukha-sureban-94baa0204/" target="_blank">
+                        <i class="fa-brands fa-linkedin fa-lg text-white cursor-pointer"></i>
+                    </a>
+                    <a href="https://github.com/Sumukha-Nagaraj-Sureban" target="_blank">
+                        <i class="fa-brands fa-github fa-lg text-white cursor-pointer"></i>
+                    </a>
+                    <a href="https://twitter.com/SurebanSumukha" target="_blank">
+                        <i class="fa-brands fa-twitter fa-lg text-white cursor-pointer"></i>
+                    </a>
+                    <a href="#">
+                        <i class="fa-brands fa-hashnode fa-lg" style="color: #ffffff;"></i>
+                    </a>
+                </div>
+            </div>
+        </footer>
+</body>
+<script src="./index.js"></script>
+</html>
