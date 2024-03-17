@@ -4,11 +4,13 @@
   "description": "I am Sumukha Sureban aspiring Software Engineer and Student",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "postcss css/style.css -o build/style.css"
   },
   "author": "Sumukha Sureban",
   "license": "ISC",
   "devDependencies": {
-    "tailwindcss": "^3.4.1"
+    "tailwindcss": "^3.4.1",
+    "autoprefixer": "^10.2.5",
+    "postcss-cli": "^8.3.1"
   }
 }
